@@ -1,0 +1,1380 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container{
+    width:100%;
+    height: 15vh;
+    background-color:#1E1E1E;
+  }
+  header{
+    height: 12vh;
+    box-sizing: border-box;
+    padding: 20px 7%;
+  }
+  .logo{
+    float: left;
+  }
+  ul{
+    float: right;
+  }
+  nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+     padding: 15px 0;
+  }
+  nav ul li:hover{
+    border-bottom: 1px solid blue;
+  }
+  .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image3/flarislar01_filtr.jpg");
+    background-size: cover;
+    background-position:bottom;
+    box-sizing: border-box;
+    padding: 1px;
+  }
+  .heading1{
+        text-align: center;
+        color:#1BA7F4;
+        font-size: 30px;
+        margin-top: 60px;
+  }
+  .icon1{
+    font-size: 20px;
+    color: #1BA7F4;
+  }
+  .p1{
+      font-size: 30px;
+      color: white;
+      text-align: center;
+      margin-top: 20px;
+  }
+  .circle{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 31%;
+  }
+  .icon2{
+    margin-left: 12px;
+    margin-top: 10px;
+     color:white;
+     font-size: 30px;
+  }
+  .white{
+    width: 35%;
+    height: 15vh;
+    margin: auto;
+    padding: 3% 0;
+    box-sizing: border-box;
+  }
+  .f1{
+     font-size: 14px;
+     color:#2D2B27;
+     margin-left: 50px;
+     display: inline;
+  }
+  .x{
+    font-size: 14px;
+    color:#2D2B27;
+    margin-left: 20px;
+    display: inline;
+ }
+ .f2{
+    font-size: 14px;
+    color:#2D2B27;
+    margin-left: 20px;
+    display: inline;
+ }
+ .s2{
+    font-size: 14px;
+    color:#2D2B27;
+    margin-left: 20px;
+    display: inline;
+ }
+ .t{
+    font-size: 14px;
+    color: #2D2B27;
+    margin-left: 20px;
+    display: inline;
+ }
+ .section1{
+    width: 100%;
+    height: 90vh;
+    background-image: url("image3/tlo_do_foty.png");
+    box-sizing: border-box;
+    background-size: cover;
+    background-position:1px;
+    padding: 1px;
+ }
+ .heading2{
+    color:black;
+    font-size: 30px;
+    margin-top: 60px; 
+    text-align: center;
+    
+ }
+ .p2{
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    margin-top: 40px;
+ }
+ .img1{
+   margin-left:7%;
+   margin-top: -10px;
+  
+ }
+ .img2{
+    margin-top: 25px;
+    margin-left: 7%;
+ }
+ .section2{
+    width: 100%;
+    height: 104vh;
+    box-sizing: border-box;
+    /* border: 1px solid ; */
+ }
+ .heading3{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+ }
+.p3{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    margin-top: 40px;
+}
+.parent1{
+    width: 35%;
+    height: 70vh;
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+.c1{
+    width: 80%;
+    height: 60vh;
+    /* border:1px solid red; */
+  position: absolute;
+  top:30px;
+  left: 40px;
+}
+.soap{
+    color: black;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.p4{
+    text-align: center;
+    color:gray;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.img3{
+    width: 52%;
+    height: 70vh;
+    display: inline-block;
+    margin-left: 35px;
+}
+.section3{
+    width: 100%;
+    height: 81vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+.img4{
+    width: 54%;
+    height: 70vh;
+    display: inline-block;
+    margin-left: 62px;
+}
+.parent2{
+    width: 35%;
+    height: 70vh;
+    border: 1px solid gray;
+    margin-left:40px;
+    /* margin-top: 10px; */
+    position: relative;
+    display: inline-block;
+}
+.c2{
+    width: 80%;
+    height: 60vh;
+    /* border:1px solid red; */
+  position: absolute;
+  top:30px;
+  left: 40px;
+}
+.revolution{
+    font-size: 16px;
+    margin-top: 17%;
+}
+.p5{
+    color:gray;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.section5{
+    width: 100%;
+    height: 135vh;
+    background-image: url("image3/kabina_filtr.jpg");
+    background-size: cover;
+    /* background-position: bottom; */
+    box-sizing: border-box;
+    padding: 1px;
+    position: relative;
+}
+.heading4{
+     text-align: center;
+     font-size: 30px;
+     color: white;
+     margin-top: 50px;
+}
+.p6{
+    font-size: 17px;
+    color: white;
+    margin-top: 55px;
+    margin-left: 20%;
+}
+.n1{
+  width: 60px;
+  height: 60px;
+  /* border: 1px solid; */
+  background-image: url("image3/11.png");
+  background-size: cover;
+  position: absolute;
+  top: 68%;
+  left: 230px;
+}
+.num1{
+     padding: 3px 3px;
+     opacity: 0;
+}
+.n1:hover .num1{
+    opacity: 1;
+}
+.o{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/2.2.png");
+    background-size: cover;
+    position: absolute;
+    top:40%;
+     left: 32%;
+}
+.num2{  
+        padding: 3px 3px;
+        opacity: 0;
+}
+.o:hover .num2{
+    opacity: 1;
+}
+.m{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/33.png");
+    background-size: cover;
+    position: absolute;
+    top:66%;
+    left:47%;
+}
+.num3{  
+        padding: 3px 3px;
+        opacity: 0;
+}
+.m:hover .num3{
+    opacity: 1;
+}
+.a{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/4.4.png");
+    background-size: cover;
+    position: absolute;
+    top:45%;
+    left:55%;
+}
+.num4{  
+    padding: 3px 3px;
+    opacity: 0;
+}
+.a:hover .num4{
+opacity: 1;
+}
+.n2{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/555.png");
+    background-size: cover;
+    position: absolute;
+    top:40%;
+    left:75%;
+}
+.num5{  
+        padding: 3px 3px;
+        opacity: 0;
+}
+.n2:hover .num5{
+    opacity: 1;
+}
+.section6{
+    width: 100%;
+    height: 110vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+.heading5{
+    text-align: center;
+     font-size: 30px;
+     color: black;
+     margin-top: 60px;
+}
+.p7{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    color: gray;
+}
+.img5{
+    width: 54%;
+    height: 74vh;
+    display: inline-block;
+    margin-left: 62px;
+    margin-top:40px;
+}
+.parent3{
+    width: 33%;
+    height: 74vh;
+    border: 1px solid gray;
+    margin-left:40px;
+    /* margin-top: 10px; */
+    position: relative;
+    display: inline-block;
+}
+.c3{
+    width:85%;
+    height: 65vh;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 30px;
+}
+.lift{
+    margin-top: 50px;
+    color:#313744;
+    font-size: 18px;
+}
+.p8{
+    font-size: 18px;
+    color: gray;
+    margin-top: 15px;
+}
+.safety{
+    color:#313744;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.p9{
+    font-size: 18px;
+    color: gray;
+    margin-top: 15px;
+}
+.section7{
+    width: 100%;
+    height: 85vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+.parent4{
+    width: 35%;
+    height: 74vh;
+    border: 1px solid gray;
+    margin-left:62px;
+    /* margin-top: 10px; */
+    position: relative;
+    display: inline-block;
+}
+.c4{
+    width:80%;
+    height: 65vh;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.heading6{
+    font-size: 18px;
+     color: black;
+     margin-top: 70px;
+}
+.p10{
+    font-size: 18px;
+    color: gray;
+    margin-top: 17px;
+}
+.img6{
+    width:54%;
+    height: 74vh;
+    display: inline-block;
+    margin-left: 25px;
+    /* margin-top:40px; */
+}
+.section8{
+    width: 100%;
+    height: 140vh;
+    box-sizing: border-box;
+    background-image: url("image3/kadlub_filtr.jpg");
+    background-size: cover;
+    padding: 1px;
+    position: relative;
+}
+.heading7{
+    font-size: 25px;
+    color:white;
+    margin-top: 65px;
+    text-align: center;
+}
+.p11{
+    font-size: 17px;
+    color:white;
+    margin-top: 50px;
+    margin-left: 17%;
+}
+.r{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/11.png");
+    background-size: cover;
+    position: absolute;
+    top:56%;
+    left:13%;
+}
+.num6{
+    padding: 3px 3px;
+    opacity: 0;
+}
+.r:hover .num6{
+    opacity: 1;
+}
+.i{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/2.2.png");
+    background-size: cover;
+    position: absolute;
+    top:42%;
+    left:29%;
+}
+.num7{
+    padding: 3px 3px;
+    opacity: 0;
+}
+.i:hover .num7{
+    opacity: 1;
+}
+.a{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/33.png");
+    background-size: cover;
+    position: absolute;
+    top:62%;
+    left:58%;
+}
+.num8{
+    padding: 3px 3px;
+    opacity: 0;
+}
+.a:hover .num8{
+    opacity: 1;
+}
+.z{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/4.4.png");
+    background-size: cover;
+    position: absolute;
+    top:55%;
+    left:81%;
+}
+.num9{
+    padding: 3px 3px;
+    opacity: 0;
+}
+.z:hover .num9{
+    opacity: 1;
+}
+.section9{
+    width:100%;
+    height: 130vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+.heading8{
+    font-size: 25px;
+    color:black;
+    margin-top: 65px;
+    text-align: center;
+}
+.p12{
+    font-size: 18px;
+    color:gray;
+    text-align: center;
+    margin-top: 50px;
+    /* margin-left: 17%; */
+}
+.parent5{
+    width: 30%;
+    height: 65vh;
+    margin-left: 70px;
+    padding: 25px;
+    border: 1px solid gray;
+    line-height:25px;
+    margin-top: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+.c5{
+    width:80%;
+    height: 70vh;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.c5 p{
+    margin-top: 60px;
+}
+.img7{
+    width:54%;
+    height: 74vh;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 70px;
+    vertical-align: top;
+}
+.section10{
+    width: 100%;
+    height: 120vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    background-image: url("image3/design_filtr.jpg");
+    background-size: cover;
+    background-position: 7px;
+    padding: 1px;
+    position: relative;
+}
+.heading9{
+    font-size: 30px;
+    color:white;
+    margin-top: 60px;
+    text-align: center;
+}
+.p13{
+    font-size: 18px;
+    color: white;
+    margin-left: 15%;
+    margin-top: 30px;    
+}
+.j{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/11.png");
+    background-size: cover;
+    position: absolute;
+    top: 68%;
+    left: 12%;
+}
+.num10{
+    padding: 3px 3px;
+    opacity: 0;
+}
+.j:hover .num10{
+    opacity: 1;
+}
+.u{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/2.2.png");
+    background-size: cover;
+    position: absolute;
+    top: 55%;
+    left:56%;
+}
+.num11{
+    padding: 3px 3px;
+    opacity: 0;
+}
+.u:hover .num11{
+    opacity: 1;
+}
+.t1{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/33.png");
+    background-size: cover;
+    position: absolute;
+    top: 60%;
+    left:47%;
+}
+.num12{
+    padding: 3px 3px;
+    opacity: 0;
+}
+.t1:hover .num12{
+    opacity: 1;
+}
+.t2{
+    width: 60px;
+    height: 60px;
+    background-image: url("image3/4.4.png");
+    background-size: cover;
+    position: absolute;
+    top: 78%;
+    left:76%;
+}
+.num13{
+    padding: 3px 3px;
+    opacity: 0;
+}
+.t2:hover .num13{
+    opacity: 1;
+}
+.section11{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 1px;
+}
+.heading10{
+    font-size: 30px;
+    color:black;
+    margin-top: 60px;
+    text-align: center;
+}
+.air1{
+    width: 49%;
+    height: 77vh;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.air2{
+    width:230px;
+    height: 70%;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 25px 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+.manufacturer{
+        font-size: 18px;
+        color:#505358;
+}
+.metal{
+    color: #515254;
+    margin-top: 5px;
+}
+.small1{
+     width: 40px;
+     height: 2px;
+     margin-top: 20px;
+}
+.Length{
+    font-size: 18px;
+    color:#505358;
+    margin-top: 30px;
+}
+.ft1{
+color: #515254;
+margin-top: 5px;
+}
+.small2{
+ width: 40px;
+ height: 2px;
+ margin-top: 20px;
+}
+.height{
+    font-size: 18px;
+    color:#505358;
+    margin-top: 30px;
+}
+.ft2{
+color: #515254;
+margin-top: 5px;
+}
+.small3{
+ width: 40px;
+ height: 2px;
+ margin-top: 20px;
+}
+.span{
+    font-size: 18px;
+    color:#505358;
+    margin-top: 30px;
+}
+.ft3{
+    color: #515254;
+    margin-top: 5px;
+}
+.airstep1{
+    width: 320px;
+    height: 80%;
+    display: inline-block;
+    /* border: 1px solid; */
+    vertical-align: top;
+    margin-top: 30px;
+    background-image: url("image3/PREZENTACJA_ELEMENTS_rzuty_v2.png");
+    background-size: cover;
+    background-position:bottom;
+}
+.airplane{
+    width: 50%;
+    height: 77vh;
+    /* border: 1px solid; */
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    background-image: url("image3/specyfikacja.jpg");
+    background-size: cover;
+    background-position:right ;
+}
+.section12{
+    width: 100%;
+    height: 93vh;
+    background-color:#1E1E1E;
+    padding: 1px;
+    box-sizing: border-box;
+}
+.d1{
+    width: 15%;
+    height: 70vh;
+    border: 1px solid gray;
+    margin-top: 50px;
+    margin-left: 7%;
+    padding: 20px 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.specification{
+    color: white;
+    margin-top: 30px;
+}
+.number{
+    font-size: 18px;
+    margin-top: 25px;
+    color: white;
+}
+.pilot{
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+}
+.x1{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin-top:22px;
+}
+.empty{
+    color: white;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.kg1{
+    color: white;
+    margin-top: 15px;
+}
+.x2{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin-top:22px;
+}
+.mass{
+    color: white;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.kg2{
+    color: white;
+    margin-top: 15px;
+}
+.d2{
+    width: 15%;
+    height: 70vh;
+    border: 1px solid gray;
+    margin-top: 50px;
+    margin-left: 5%;
+    padding: 20px 30px; 
+    /* background-color: red; */
+    display: inline-block;
+    vertical-align: top;
+}
+.power{
+    color: white;
+    margin-top: 30px;
+}
+.engine{
+    font-size: 18px;
+    margin-top: 25px;
+    color: white;
+}
+.william{
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+}
+.x3{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin-top:22px;
+}
+.static{
+    color: white;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.kn1{
+    color: white;
+    margin-top: 15px;
+}
+.x4{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin-top:22px;
+}
+.Avionics{
+    color: white;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.kn2{
+    color: white;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.d3{
+    width: 33%;
+    height: 70vh;
+    border: 1px solid gray;
+    margin-top: 50px;
+    margin-left: 5%;
+    padding: 20px 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.no{
+    width: 48%;
+    height: 70vh;
+    /* border: 1px solid red; */
+    display: inline-block;
+    vertical-align: top;
+}
+.yes{
+    width: 48%;
+    height: 50vh;
+    /* border: 1px solid green; */
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.performance{
+    color: white;
+    margin-top: 30px;
+}
+.speed{
+    font-size: 18px;
+    margin-top: 25px;
+    color: white;
+}
+.km{
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.x5{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin-top:22px;
+}
+.stall{
+    color: white;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.km{
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.x6{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin-top:22px;
+}
+.service{
+    color: white;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.m1{
+    color: white;
+    margin-top: 15px;
+}
+.range{
+    color: white;
+    margin-top: 80px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.max{
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.x7{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin-top:22px;
+    margin-left: 30px;
+}
+.Aerodynamics{
+    color: white;
+    margin-top: 50px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.ld{
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.section13{
+    width: 100%;
+    height: 150vh;
+    box-sizing: border-box;
+    background-color: #1E1E1E;
+    padding: 1px;
+    background-image: url("image3/flarislar01_filtr.jpg");
+    background-position: right;
+
+}
+.heading11{
+    font-size: 30px;
+    color:white;
+    margin-top: 60px;
+    text-align: center;
+}
+.p14{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+    font-size: 18px;
+}.dp{
+    width: 50%;
+    height: 132px;
+    margin: auto;
+    margin-top: 600px;
+}
+.cd1{
+    width: 310px;
+    height: 130px;
+    vertical-align: top;
+    display: inline-block;
+}
+.cd2{
+    width:320px;
+    height: 130px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 20px;
+}
+.btn1{
+    width: 230px;
+    height: 50px;
+    margin-left:40px;
+     font-size: 15px;
+     margin-top: 20px;
+     border-color:#1BA7F4;
+     background-color: transparent;
+     color: #1BA7F4;
+     
+}
+.check{
+    text-align: center;
+    font-size: 15px;
+   
+}
+.own{
+
+    font-size: 27px;
+    color: white;
+    text-align: center;
+ 
+}
+.icon8{
+    color:white;
+    font-size: 10px; 
+}
+.btn1:hover{
+    background-color: #1BA7F4;
+    color: white;
+}
+.btn2{
+    width: 230px;
+    height: 50px;
+    margin-left:40px;
+     font-size: 15px;
+     margin-top: 20px;
+     border-color:#1BA7F4;
+     background-color: transparent;
+     color: #1BA7F4;
+     
+}
+.piloting{
+    text-align: center;
+    font-size: 15px;
+
+}
+.icon9{
+    color:white;
+    font-size: 10px; 
+}
+.btn2:hover{
+    background-color: #1BA7F4;
+    color: white;
+}
+.own1{
+    font-size: 27px;
+    color:white;
+     text-align: center;
+ 
+}
+.section14{
+    width: 100%;
+    height: 85vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+.img8{
+    width: 40%;
+    height: 85vh;
+    display: inline-block;
+    vertical-align: top;
+}
+.form{
+    width: 51%;
+    height: 85vh;
+    /* background-color: aqua; */
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 4%;
+}
+.heading12{
+   font-size: 25px;
+   margin-top: 70px;  
+}
+.first{
+    width: 80px;
+    height: 50px;
+
+}
+.beam{
+    font-size: 13px;
+    color: #1BA7F4;
+}
+.section15{
+    width: 100%;
+    height: 100vh;
+    background-color: #1E1E1E;
+    padding: 6% 5%;
+    box-sizing: border-box;
+}  
+.whitelogo{
+    display: inline-block;
+    vertical-align: top;
+}
+.m2{
+    width: 100px;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin-left: 35%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px
+}
+.legal{
+    color: white;
+    font-size: 16px;
+}
+.gdpr{
+    color: #CCCCCC;
+    margin-top: 25px;
+}
+.privacy{
+    color: #CCCCCC;
+    margin-top: 13px;
+}
+.cookies{
+    color: #CCCCCC;
+    margin-top: 13px;
+}
+.i1{
+    width: 100px;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    margin-left: 80px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px
+}
+.about{
+    color: white;
+    font-size: 16px;
+}
+.room{
+    color: #CCCCCC;
+    margin-top: 25px;
+}
+.manufacturer{
+    color: #CCCCCC;
+    margin-top: 13px;
+}
+.s1{
+    width: 100px;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    margin-left: 80px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px
+}
+.information{
+    color: white;
+    font-size: 16px;
+}
+.faq{
+    color: #CCCCCC;
+    margin-top: 25px;
+}
+.NEWS{
+    color: #CCCCCC;
+    margin-top: 13px;
+}
+.sign-in{
+     color: #CCCCCC;
+     text-align: center;
+     font-size: 20px;
+     margin-left: 16%;
+     margin-top: 40px;
+}
+.email1{
+   width: 50%;
+   height: 50px;
+   background-color: white;
+   margin-left: 48%;
+   border-radius: 3px;
+   margin-top: 30px;  
+}
+.email2{
+  color: gray;
+  font-size: 17px;
+  padding: 15px 25px;
+}
+.border{
+    width: 610px;
+    height: 50px;
+    border: 2px solid white;
+    margin-left: 48%;
+    margin-top: 15px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    position: relative;
+}
+.border:hover{
+    background-color: gray;
+    border: none;
+}
+.border:hover .signin{
+     margin-left: 42%;
+}
+.border:hover .icon7{
+    opacity: 1;
+    transition: .5s;
+    margin-right:240px;
+}
+.signin{
+    font-size: 20px;
+    /* width: max-content; */
+    color: white;
+    margin-left: 45%;
+    transition: all .5s;
+}
+.icon7{
+    color: white;
+    float: right;
+    margin-top: -20px;
+    margin-right: 250px;
+    opacity: 0;
+    transition: all .5s;
+}
+.line{
+    width: 99%;
+    height: 1px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+}
+.link{
+    color:white;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.youtube{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 94%;
+}  
+.facebook{
+    display: inline-block;
+    vertical-align: top;
+}
+#first{
+    width: 40%;
+    height: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 3% 3%;
+    display: inline-block;
+    outline: none;
+}
+#email{
+    width: 40%;
+    height: 9px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 3% 3%;
+    display: inline-block;
+    outline: none;
+}
+#lastname{
+    width: 40%;
+    height: 9px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 3% 3%;
+    display: inline-block;
+    outline: none;
+}
+#phone{
+    width: 40%;
+    height: 9px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 3% 3%;
+    display: inline-block;
+    outline: none;
+}
+#yourmessage{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 3% 3%;
+    outline: none;
+}
+.red{
+    width: 35%;
+    height: 10vh;
+    border: 1px solid red;
+    margin-left: 65%;
+}
+.five{
+    color: gray;
+border:1px solid red;
+ width:20px;
+    padding:20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.six{
+    width: 20%;
+    height: 8vh;
+    background-color:#CCCCCC;
+    display: inline-block;
+    vertical-align: top;
+}
+.blue{
+    /* width:44%; */
+    height: 8vh;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    margin-left: 5px;
+    border-color: #1BA7F4;
+    background-color: white;
+    color: #1BA7F4;
+    font-size: 18px;
+    padding: 13px 20px;
+}
+
+.icon10{
+    color:green;
+    margin-left: -10px;
+    opacity: 0;
+    transition: all .5s;
+    border: 1px solid pink;
+    font-size: 10px;
+
+}
+.blue:hover{
+    background-color:cornsilk;
+    opacity:1;
+}
+
+.blue:hover .icon10{
+    margin-left: 20px;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+

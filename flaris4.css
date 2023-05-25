@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 15vh;
+    background-color: #1E1E1E;
+}
+header{
+    height:12vh;
+    box-sizing: border-box;
+    padding:20px 7%;
+}
+.logo{
+   float:left;
+}
+ul{
+    float:right;
+
+}
+nav ul li{
+    display: inline-block;  
+    margin-left:20px;
+    color:white;
+    padding:15px 0;
+    cursor: pointer;
+}
+nav ul li:hover{
+    border-bottom:1px solid blue;
+}.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image5/header-banner-zakup-leasing.jpg");
+    background-size: cover;
+    background-position:bottom;
+    box-sizing: border-box;
+    padding: 1px;
+}
+#heading1{
+    color:#1BA7F4;
+    text-align: center;
+    margin-top: 70PX;
+    font-size: 30px;
+}
+.p1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 35px;
+    color: white;
+}
+.icon1{
+    font-size: 20px;
+    margin-top: -15px;
+    color: #1BA7F4;
+}
+.icon1{
+    font-size: 20px;
+    margin-top: -16px;
+}
+.icon2{
+    /* margin-left: 49%;
+    margin-top: 417px; */
+     color:white;
+     font-size: 33px;
+ }
+ .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-left: 49%;
+    margin-top: 410px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+ }
+ .section1{
+    width: 100%;
+    height: 150vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+ }
+ .heading2{
+    color:black;
+    text-align: center;
+    margin-top: 70PX;
+    font-size: 30px;
+}
+.p2{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    color:gray;
+}
+.page1{
+    width: 100%;
+    height: 111vh;
+    /* background-color: red; */
+    margin-top: 80px;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+.border1{
+    width: 37%;
+    height: 111vh;
+    border: 1px solid gray;
+    padding: 10% 5%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.Independence{
+    color: black;
+    font-size: 25px;
+}
+.p3{
+    color: gray;
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 27px;
+}
+.earth{
+    color: black;
+    margin-top: 30px;
+}
+.p4{
+    color: gray;
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 27px;
+}
+.img1{
+    width: 60%;
+    height: 111vh;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+.section2{
+      width: 100%;
+      height: 70vh;
+      /* border: 1px solid; */
+      box-sizing: border-box;
+      padding: 0 5%;   
+}
+.img2{
+    width: 60%;
+    height: 60vh;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.border2{
+    width: 36%;
+    height: 60vh;
+    display: inline-block;
+    border: 1px solid gray;
+    margin-left: 40px;
+    padding: 10% 4%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.p5{
+    font-size: 16px;
+    color: gray;
+    margin-top: 25px;
+    line-height: 29px;
+}
+.section3{
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+.border3{
+    width: 40%;
+    height: 80vh;
+    border: 1px solid gray;
+    padding: 10% 5%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.p6{
+    color: gray;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.img3{
+    width: 57%;
+    height: 80vh;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+.section4{
+    width: 100%;
+    height: 60vh;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-image: url("image5/enface-4.png");
+    background-size: cover;
+    background-position: 1px;
+    background-color: #1E1E1E;
+}
+.boss{
+    width: 40%;
+    height: 60vh;
+    /* border: 1px solid red; */
+    margin-left: 58%;
+}
+.PURCHASE{
+    color: white;
+    margin-top: 50px;
+    
+}
+.icon3{
+    font-size: 13px;
+    color: #1BA7F4;
+}
+.p7{
+    font-size: 16px;
+    color: white;
+    margin-top: 50px;
+    line-height: 23px;
+}
+.btn1{
+    width: 35%;
+    height: 50px;
+    margin-left:30%;
+    margin-top: 70px;
+    border-color:#1BA7F4;
+    background-color: transparent;
+}
+.more{
+    color: #1BA7F4;
+    font-size: 18px;
+
+}
+.icon4{
+    font-size: 10px;
+    color: white;
+}
+.btn1:hover{
+    background-color: #1BA7F4;
+}
+.btn1:hover .more{
+
+    color: white;
+}
+.section5{
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    background-color: #1E1E1E;   
+}
+.micky{
+    width: 50%;
+    height: 59vh;
+    /* border: 1px solid red; */
+    display: inline-block;
+    vertical-align: top;
+}
+.LEASING{
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    margin-top: 40px;
+
+}
+.icon5{
+    color: #1BA7F4;
+    font-size: 18px;
+
+}
+.p8{
+    font-size: 17px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 30px;
+    line-height: 25px;
+
+}
+.btn2{
+    width: 30%;
+    height: 50px;
+    margin-left:30%;
+    margin-top: 70px;
+    border-color:#1BA7F4;
+    background-color: transparent;
+}
+.more1{
+    color: #1BA7F4;
+    font-size: 18px;
+
+}
+.icon4{
+    font-size: 10px;
+    color: white;
+}
+.btn2:hover{
+    background-color: #1BA7F4;
+}
+.btn2:hover .more1{
+
+    color: white;
+}
+.img4{
+    width: 40%;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 6%;
+}
+.section6{
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    background-color: #1E1E1E;
+}
+.img5{
+    width: 50%;
+    height: 70vh;
+    /* border: 1px solid; */
+    display: inline-block;
+    vertical-align: top;
+}
+.jhony{
+    width: 45%;
+    height: 70vh;
+    /* border: 1px solid green; */
+    display: inline-block;
+    margin-left: 3%;
+}
+.RENTAL{
+    /* text-align: center; */
+    font-size: 27px;
+    color: white;
+    margin-top: 40px;
+    vertical-align: top;
+}
+.p9{
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+    line-height: 25px;
+
+}
+.btn3{
+    width: 30%;
+    height: 50px;
+    margin-left:30%;
+    margin-top: 70px;
+    border-color:#1BA7F4;
+    background-color: transparent;
+}
+.more3{
+    color: #1BA7F4;
+    font-size: 18px;
+
+}
+.icon4{
+    font-size: 10px;
+    color: white;
+}
+.btn3:hover{
+    background-color: #1BA7F4;
+}
+.btn3:hover .more3{
+
+    color: white;
+}
+.section7{
+    width: 100%;
+    height: 120vh;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.img6{
+    width: 43%;
+    height: 115vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pc{
+    width:56%;
+    height: 115vh;
+    border: 1px solid green;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5% 5%;
+    box-sizing: border-box;
+
+}
+.heading3{
+    font-size: 25px;
+
+}
+.icon5{
+    color: #1BA7F4;
+    font-size: 14px;
+}
+.first{
+    width: 45%;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 55px;
+    font-size: 16px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+}
+.email{
+    width: 45%;
+    height: 45px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+.lastname{
+    width: 45%;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+.number{
+    width: 45%;
+    height: 45px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+.pilot{
+    font-size: 16px;
+    color: #666666;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#radio1{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#radio2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#list{
+    width: 92%;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 20px;
+    outline: none;
+    font-size: 18px;
+    box-sizing: border-box;
+}
